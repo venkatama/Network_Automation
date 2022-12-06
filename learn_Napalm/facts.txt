@@ -1,0 +1,12 @@
+{
+    "fqdn": "R1.domain.com",
+    "hostname": "R1",
+    "interface_list": [
+        "FastEthernet0/0"
+    ],
+    "model": "7206VXR",
+    "os_version": "7200 Software (C7200-ADVENTERPRISEK9-M), Version 12.4(24)T5, RELEASE SOFTWARE (fc3)",
+    "serial_number": "4279256517",
+    "uptime": 4320.0,
+    "vendor": "Cisco"
+}

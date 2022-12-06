@@ -1,0 +1,11 @@
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+R3(config)#ip ssh version 2
+R3(config)#router rip
+R3(config-router)#version 2
+R3(config-router)#net 10.0.0.0
+R3(config-router)#net 192.168.0.0
+R3(config-router)#distance 150
+R3(config-router)#redistribute ospf 1
+R3(config-router)#end
+R3#

@@ -16,6 +16,7 @@ def enable_acl(device):
 #    connection.exit_config_mode()
 #    commands = ["access-list 101 permit tcp any any eq 80", "access-list 101 permit tcp any any eq 443",
 #                "access-list 101 deny ip any any"]
+
     output = list()
     output = connection.send_config_from_file("rip.txt")
     print(output)

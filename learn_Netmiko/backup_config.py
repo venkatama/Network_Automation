@@ -2,7 +2,7 @@ from netmiko import Netmiko
 from netmiko import ConnectHandler
 # connection = Netmiko(host="192.168.122.10", port="22", username="u1", password="cisco", device_type="cisco_ios")
 
-devices = ["192.168.122.10", "192.168.122.20", "192.168.122.30"]
+devices = ["10.1.1.20", "10.1.1.30", "10.1.1.40"]
 
 for device in devices:
     cisco_device = {
@@ -11,7 +11,7 @@ for device in devices:
         "username": "u1",
         "password": "cisco",
         "port": "22",
-        "secret": "cisco",
+        "secret": "pass123",
         "verbose": True
     }
 
