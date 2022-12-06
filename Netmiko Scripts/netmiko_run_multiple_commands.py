@@ -7,7 +7,7 @@ cisco_device = {
         'password': 'cisco',
         'port': 22,
         'secret': 'cisco',
-        'verbose':True
+        'verbose': True
         }
 
 connection = ConnectHandler(**cisco_device)
