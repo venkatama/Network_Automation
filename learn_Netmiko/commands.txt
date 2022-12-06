@@ -1,0 +1,2 @@
+show arp
+show ip int brief
