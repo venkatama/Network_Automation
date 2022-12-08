@@ -1,7 +1,7 @@
 import telnetlib
 import time
 
-host = '192.168.122.10'
+host = '10.1.1.20'
 port = '23'
 user = 'u1'
 password = 'cisco'
